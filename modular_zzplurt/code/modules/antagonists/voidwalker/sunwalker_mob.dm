@@ -15,7 +15,7 @@
 	/// Water damage we take on any exposure
 	water_damage = 25 // SPLURT change, increased to 25 from 20
 
-	unsettle = /datum/action/cooldown/spell/pointed/unsettle
+	var/datum/action/cooldown/spell/pointed/unsettle/unsettle
 
 /mob/living/basic/voidwalker/sunwalker/unique_setup()
 	. = ..()
